@@ -1,0 +1,73 @@
+{
+  "plants": [
+    {
+      "id": 1,
+      "name": "Fern",
+      "species": "Nephrolepis exaltata",
+      "date_planted": "2022-03-15",
+      "location": "Living Room",
+      "notes": "Loves humidity and indirect light."
+    },
+    {
+      "id": 2,
+      "name": "Aloe Vera",
+      "species": "Aloe barbadensis miller",
+      "date_planted": "2021-08-20",
+      "location": "Kitchen",
+      "notes": "Water sparingly; prefers bright light."
+    },
+    {
+      "id": 3,
+      "name": "Snake Plant",
+      "species": "Sansevieria trifasciata",
+      "date_planted": "2020-11-05",
+      "location": "Bedroom",
+      "notes": "Very hardy, tolerates low light."
+    },
+    {
+      "id": 4,
+      "name": "Peace Lily",
+      "species": "Spathiphyllum wallisii",
+      "date_planted": "2023-02-10",
+      "location": "Office",
+      "notes": "Prefers low light and high humidity. Keep soil consistently moist."
+    }
+  ],
+  "CareLogs": [
+    {
+      "id": 1,
+      "plant_id": 1,
+      "care_type": "Watering",
+      "date": "2024-05-20",
+      "notes": "Watered thoroughly until water drained from the bottom."
+    },
+    {
+      "id": 2,
+      "plant_id": 2,
+      "care_type": "Fertilizing",
+      "date": "2024-05-15",
+      "notes": "Added half-strength liquid fertilizer."
+    },
+    {
+      "id": 3,
+      "plant_id": 3,
+      "care_type": "Pruning",
+      "date": "2024-05-10",
+      "notes": "Removed dead leaves and trimmed tips."
+    },
+    {
+      "id": 4,
+      "plant_id": 1,
+      "care_type": "Misting",
+      "date": "2024-05-05",
+      "notes": "Misted leaves to increase humidity."
+    },
+    {
+      "id": 5,
+      "plant_id": 2,
+      "care_type": "Watering",
+      "date": "2024-05-02",
+      "notes": "Watered lightly; soil was still moist."
+    }
+  ]
+}
