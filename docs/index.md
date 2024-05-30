@@ -4,7 +4,7 @@ layout: page
 
 # Plant Buddy API overview
 
-Plant Buddy is a simple cloud-based REST API interface for users to track and manage the care of their plants.
+Keep your plants healthy and happy! Plant Buddy is a simple cloud-based REST API service for users to track and manage the care of their plants.
 
 Plant Buddy has two resources: plants and carelogs. Adding a plant to the database takes only a minute. Then, whenever you tend to your plant, such as watering or fertilizing it, you can easily document the activity by creating a carelog for it. Carelogs help you monitor the health and growth of your plants over time so you can identify any emerging issues.
 
@@ -24,7 +24,7 @@ After you set up your development system, refer to the following tutorials for i
 
 #### Manage plant resources
 
-* [Add a plant](tutorials/add-a-plant.md)
+* [Create a plant](tutorials/create-a-plant.md)
 * [Delete a plant](tutorials/delete-a-plant.md)
 * [Get a plant by ID](tutorials/get-plant-by-id.md)
 * [Get a plant by name](tutorials/get-plant-by-name.md)
@@ -35,7 +35,7 @@ After you set up your development system, refer to the following tutorials for i
 
 #### Manage carelog resources
 
-* [Add a carelog](tutorials/add-a-carelog.md)
+* [Create a carelog](tutorials/create-a-carelog.md)
 * [Delete a carelog](tutorials/delete-a-carelog.md)
 * [Get a carelog by ID](tutorials/get-carelog-by-id.md)
 * [Get carelogs by plant ID](tutorials/get-carelogs-by-plant-id.md)
