@@ -17,12 +17,13 @@ Sample `plant` resource:
 
 ```js
 {
-      "id": 3,
-      "name": "Snake Plant",
-      "species": "Sansevieria trifasciata",
-      "date_planted": "2020-11-05",
-      "location": "Bedroom",
-      "notes": "Very hardy, tolerates low light."
+
+  "name": "Snake Plant",
+  "species": "Sansevieria trifasciata",
+  "date_planted": "2020-11-05",
+  "location": "Bedroom",
+  "notes": "Very hardy, tolerates low light.",
+  "id": 3
 }
 ```
 
@@ -41,15 +42,11 @@ The `plant` resource supports these operations.
 
 ### Add (POST)
 
-* [Add a plant](plants-add-plant)
+* [Create a plant](plants-create-plant.md)
 
 ### READ (GET)
 
 * [Get all plants](plants-get-all-plants)
-* [Get a plant by ID](plants-get-plant-by-id)
-* [Get plants by species](plants-get-plant-by-species)
-* [Get plants by date planted](plants-get-plants-by-date-planted)
-* [Get plants by location](plants-get-plants-by-location)
 
 ### UPDATE (PATCH)
 
@@ -58,3 +55,7 @@ The `plant` resource supports these operations.
 ### DELETE
 
 * [Delete plant by ID](plants-delete-plant-by-id)
+
+## See also
+
+* [carelog resource](carelog.md)
