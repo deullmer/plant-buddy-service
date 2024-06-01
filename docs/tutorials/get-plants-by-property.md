@@ -22,7 +22,7 @@ Make sure your development system is set up to work with the Plant Buddy service
 
 ## Get plants by a property
 
-**Note:** The following instructions use the `location` property as an example.
+**Note:** The following instructions use the `location` property as an example. You can use the same instructions to query plants by the other eligible properties.
 
 1. Make sure your local service is running. If it's not running, start it by using this command:
 
