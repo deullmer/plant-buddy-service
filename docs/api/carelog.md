@@ -15,7 +15,7 @@ Contains the carelogs that have been added to the service. Carelogs provide deta
 
 ## Resource properties
 
-Sample `carelog` resource
+Sample `carelog` resource:
 
 ```js
 
@@ -31,7 +31,7 @@ Sample `carelog` resource
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
 | `plant_id` | Number | The plant's unique record ID. |
-| `care_type` | String | Type of care given to a plant. |
+| `care_type` | String | Type of care given to a plant (e.g. "Watering"). |
 | `date` | String | Date the care was given. |
 | `notes` | String | Any notes that the user might want to add about the care given (e.g. "Watered thoroughly until water drained from the bottom"). |
 | `id` | Number | The carelog's unique record ID. |
@@ -40,21 +40,22 @@ Sample `carelog` resource
 
 The `carelog` resource supports these operations.
 
-## Create (POST)
+### Create (POST)
 
-* [Create a carelog](carelogs-create-carelog.md/)
+* [Create a carelog](carelogs-create-carelog.md)
 
-## READ (GET)
+### READ (GET)
 
-* [Get all carelogs](get-all-carelogs)
-* [Get a carelog by ID](carelogs-get-carelog-by-id.md)
-* [Get carelogs by care type](carelogs-get-carelog-by-care-type.md)
-* [Get carelogs by date](carelogs-ref-topic-get-carelogs-by-date)
+* [Get all carelogs](carelogs-get-all-carelogs.md)
 
-## UPDATE (PATCH)
+### UPDATE (PATCH)
 
-* [Change a carelog property](carelogs-change-carelog-property.md)
+* [Update a carelog property](carelogs-update-carelog-property.md)
 
 ### DELETE
 
-* [Delete a carelog by ID](plants-delete-carelog-by-id)
+* [Delete a carelog](carelogs-delete-carelog.md)
+
+## See also
+
+* [plant resource](plant.md)

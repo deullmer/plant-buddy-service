@@ -4,7 +4,7 @@ layout: page
 
 # Create a plant
 
-Creates a new [`plant`](plant) for a user of the Plant Buddy service.
+Creates a new [`plant`](plant) in the Plant Buddy service.
 The request body contains the new plant details that are derived from the plant properties, which you must specify.
 
 ## URL
@@ -26,7 +26,7 @@ In the request body, specify a JSON representation of the [`plant`](plant) objec
 
 | Property | Description | Type | Required | Notes |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| `name` | Name of the plant | string | Required | |
+| `name` | Name of the plant. | string | Required | |
 | `species` | Species of the plant. | string | Required | |
 | `date_planted` | Date on which the plant was planted. | string | Required | |
 | `location` | Location of the plant. | string | Required | |
@@ -40,26 +40,25 @@ The POST body should look something like this. You can change the values of each
 ```js
 [
     {
-      "name": "Snake Plant",
-      "species": "Sansevieria trifasciata",
-      "date_planted": "2020-11-05",
-      "location": "Bedroom",
-      "notes": "Very hardy, tolerates low light."
+      "plant_id": 1,
+      "care_type": "Misting",
+      "date": "2024-05-05",
+      "notes": "Misted leaves to increase humidity."
     }
 ]
 ```
 
 ## Response body
+
 The following example shows the response. Note that the plant name should be the same as you used in your **Request body**, and the response should include the new plant's `id`, which is automatically generated when the plant is created.
 
 ```js
 [
     {
-      "name": "Snake Plant",
-      "species": "Sansevieria trifasciata",
-      "date_planted": "2020-11-05",
-      "location": "Bedroom",
-      "notes": "Very hardy, tolerates low light."
+      "plant_id": 1,
+      "care_type": "Misting",
+      "date": "2024-05-05",
+      "notes": "Misted leaves to increase humidity.",
       "id": 2
     }
 ]

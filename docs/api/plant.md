@@ -40,21 +40,21 @@ Sample `plant` resource:
 
 The `plant` resource supports these operations.
 
-### Add (POST)
+### Create (POST)
 
 * [Create a plant](plants-create-plant.md)
 
 ### READ (GET)
 
-* [Get all plants](plants-get-all-plants)
+* [Get all plants](plants-get-all-plants.md)
 
 ### UPDATE (PATCH)
 
-* [Change a plant property](plants-change-plant-property)
+* [Update a plant property](plants-update-plant-property.md)
 
 ### DELETE
 
-* [Delete plant by ID](plants-delete-plant-by-id)
+* [Delete a plant](plants-delete-plant.md)
 
 ## See also
 

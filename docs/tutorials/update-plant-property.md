@@ -4,7 +4,7 @@ layout: page
 
 # Update a plant property
 
-In this tutorial, you'll learn how to use Postman to update a plant properties include `name`, `species`, `date_planted`, `location`, and `notes`.
+In this tutorial, you'll learn how to use Postman to update a plant property. Updatable plant properties include `name`, `species`, `date_planted`, `location`, and `notes`.
 
 This tutorial takes about 15 minutes to complete.
 
@@ -16,9 +16,9 @@ Before you start working with Plant Buddy, you need to make sure that you have t
 
 **Note:** If you know the ID of the plant that you want to update, you can skip this section.
 
-If you don't know the `id` of the plant that you want to update, list all the plants in the Plant Buddy service's database so you can find the ID.
+If you don't know the ID of the plant that you want to update, run a GET request to list all the plants in the Plant Buddy service's database so you can find the ID.
 
-##### To get a list of plants:
+### To get a list of plants
 
 1. Make sure your local service is running. If it's not running, start it by running the following commands:
 
@@ -51,9 +51,9 @@ If you don't know the `id` of the plant that you want to update, list all the pl
 
 ## Update the plant property
 
-Now that you know the plant `id`, send a `PATCH` request to the `/plants/{id}` endpoint to update the property that you want to change.
+Once you know the plant `id`, send a `PATCH` request to the `/plants/{id}` endpoint to update the property that you want to change.
 
-##### To update the plant description:
+### To update the plant description
 
 1. Make sure your local service is running. If it's not running, start it by running the following commands:
 
