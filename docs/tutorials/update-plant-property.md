@@ -59,7 +59,7 @@ Once you know the plant `id`, send a `PATCH` request to the `/plants/{id}` endpo
 
     ```shell
     cd <your-github-workspace>/plant-buddy-service/api
-    json-server -w plant-buddy-db-source.json
+    json-server -w plant-carelog-db-source.json
     ```
 
 1. In Postman, add a new request with these values:
