@@ -79,10 +79,10 @@ To test your development system, follow these steps:
 of the procedure, investigate and correct the error before continuing.
 Some common situations that cause errors include:
 
-    1. A mistyped command.
-    1. Not being in the correct directory.
-    1. A required software component isn't installed correctly.
-    1. A required software component is out of date.
+    * A mistyped command.
+    * Not being in the correct directory.
+    * A required software component isn't installed correctly.
+    * A required software component is out of date.
 
     If you see the list of plants from the service, you're ready to work with Plant Buddy. The following tutorials cover some common developer tasks to help you get started:
 
