@@ -26,7 +26,7 @@ None
 
 ## Return body
 
-```js
+```json
 [
     {
         "id": 1,
