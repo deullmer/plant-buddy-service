@@ -26,11 +26,7 @@ After you set up your development system, refer to the following tutorials for i
 
 * [Create a plant](tutorials/create-a-plant.md)
 * [Delete a plant](tutorials/delete-a-plant.md)
-* [Get a plant by ID](tutorials/get-plant-by-id.md)
-* [Get a plant by name](tutorials/get-plant-by-name.md)
-* [Get plants by species](tutorials/get-plants-by-species.md)
-* [Get plants by date planted](tutorials/get-plants-by-date-planted.md)
-* [Get plants by location](tutorials/get-plants-by-location.md)
+* [Get plants by a property](tutorials/get-plants-by-property.md)
 * [Update a plant property](tutorials/update-plant-property.md)
 
 #### Manage carelog resources
