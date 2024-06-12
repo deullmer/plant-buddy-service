@@ -18,7 +18,7 @@ Before you start working with Plant Buddy, you need to make sure that you have t
 
 If you don't know the ID of the plant that you want to update, run a GET request to list all the plants in the Plant Buddy service's database so you can find the ID.
 
-### To get a list of plants
+To get a list of plants
 
 1. Make sure your local service is running. If it's not running, start it by running the following commands:
 
@@ -79,11 +79,11 @@ Once you know the plant `id`, send a `PATCH` request to the `/plants/{id}` endpo
 
    The Plant Buddy service updates the plant description and returns a `200 OK` along with the updated plant as a JSON object.  
 
-## Next Steps
+## Next steps
 
 After doing this tutorial in Postman, you might like to repeat it in your favorite programming language. To do this, adapt the values from the tutorial to the properties and arguments that the language uses to make REST API calls.
 
-## Related Topics
+## Related topics
 
 * [Plant resource](../api/plant.md)
 * [Carelog resource](../api/carelog.md)
