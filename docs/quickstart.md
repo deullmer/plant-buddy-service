@@ -16,8 +16,7 @@ This quickstart is specific to the Windows operating system and takes about 20 m
 To work with the Plant Buddy API, you need the following:
 
 * A [GitHub account](https://github.com)
-* A Windows development system running a current or
-long-term support (LTS version of the operating system).
+* A Windows computer running a current or long-term support (LTS version of the operating system).
 * The following software on your development system:
   * [Git](https://docs.github.com/en/get-started/quickstart/set-up-git) (for the command line)
   * [GitHub Desktop](https://desktop.github.com) (optional)
@@ -43,9 +42,8 @@ To test your development system, follow these steps:
     cd api
     json-server -w plant-carelog-db-source.json
     ```
-
-    If your development system is installed correctly, you should see
-    the service start and display the URL of the service: `http://localhost:3000`.
+    
+    If your development system is installed correctly, the service should start and display the URL of the service: `http://localhost:3000`.
 
 1. Make a test call to the service.
 
@@ -53,7 +51,7 @@ To test your development system, follow these steps:
     curl http://localhost:3000/plants
     ```
 
-1. If the service is running correctly, you should see a list of plants from the service, such as in this example.
+    If the service is running correctly, you should see a list of plants from the service, such as in this example.
 
     ```json
    [
@@ -81,12 +79,12 @@ To test your development system, follow these steps:
 of the procedure, investigate and correct the error before continuing.
 Some common situations that cause errors include:
 
-    1. You mistyped a command.
-    1. You aren't in the correct directory.
-    1. A required software component didn't install correctly.
-    1. A required software component isn't up to date.
+    1. A mistyped command.
+    1. Not being in the correct directory.
+    1. A required software component isn't installed correctly.
+    1. A required software component is out of date.
 
-    If you see the list of users from the service, you're ready to work with Plant Buddy. The following tutorials cover some common developer tasks to help you get started:
+    If you see the list of plants from the service, you're ready to work with Plant Buddy. The following tutorials cover some common developer tasks to help you get started:
 
     * [Get plants by a property](tutorials/get-plants-by-property.md)
     * [Update a plant property](tutorials/update-plant-property.md)
