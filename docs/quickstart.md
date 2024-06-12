@@ -16,8 +16,7 @@ This quickstart is specific to the Windows operating system and takes about 20 m
 To work with the Plant Buddy API, you need the following:
 
 * A [GitHub account](https://github.com)
-* A Windows computer running a current or
-long-term support (LTS version of the operating system).
+* A Windows computer running a current or long-term support (LTS version of the operating system).
 * The following software on your development system:
   * [Git](https://docs.github.com/en/get-started/quickstart/set-up-git) (for the command line)
   * [GitHub Desktop](https://desktop.github.com) (optional)
@@ -43,7 +42,7 @@ To test your development system, follow these steps:
     cd api
     json-server -w plant-carelog-db-source.json
     ```
-
+    
     If your development system is installed correctly, the service should start and display the URL of the service: `http://localhost:3000`.
 
 1. Make a test call to the service.
