@@ -16,7 +16,7 @@ This section links you to the resources you need to quickly start working with t
 
 ### Prepare your development system
 
-Before you start working with Plant Buddy, make sure that you have the prerequisite tools, and then set up your development system to work with the Plant Buddy service. For instructions, see the [Quickstart](tutorials/quickstart.md) guide.
+Before you start working with Plant Buddy, make sure that you have the prerequisite tools, and then set up your development system to work with the Plant Buddy service. For instructions, see the [Quickstart](quickstart.md) guide.
 
 ### Tutorials
 
@@ -66,4 +66,4 @@ For more detailed descriptions of the service's resources, see the following ref
 
 ## Contact us
 
-If you have any questions, don't hesitate to contact us at [to-do-service\@abc.com](mailto:#@#.com?subject=Test).
+If you have any questions, don't hesitate to contact us at [plant-buddy-service\@abc.com](mailto:#@#.com?subject=Test).

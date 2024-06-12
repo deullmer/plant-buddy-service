@@ -16,7 +16,6 @@ The Patch request updates a specified property but does not change the other pro
 
 PATCH
 
-
 ## Properties
 
 This table lists the plant properties that can be updated.
@@ -28,7 +27,6 @@ This table lists the plant properties that can be updated.
 | `date_planted` | string | Date on which the plant was planted. |
 | `location` | string | Location of the plant (e.g. "Living room"). |
 | `notes` | string | Notes about the plant's condition and/or characteristics (e.g. "Very hardy, tolerates low light"). |
-
 
 ## Request headers
 
@@ -68,7 +66,6 @@ The return shows the plant record with the updated `location` value.
         "notes": "Water sparingly; prefers bright light."
     }
 ```
-
 
 ## Return status
 
