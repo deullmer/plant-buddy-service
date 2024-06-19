@@ -46,18 +46,18 @@ For more detailed descriptions of the service's resources, see the following ref
 ### Plants
 
 * [plant resource](api/plant.md)
-* [Create a plant](plants-create-plant.md)
-* [Get all plants](plants-get-all-plants.md)
-* [Update a plant property](plants-update-plant-property.md)
-* [Delete a plant](plants-delete-plant.md)
+* [Create a plant](api/plants-create-plant.md)
+* [Get all plants](api/plants-get-all-plants.md)
+* [Update a plant property](api/plants-update-plant-property.md)
+* [Delete a plant](api/plants-delete-plant.md)
 
 ### Carelogs
 
 * [carelog resource](api/carelog.md)
-* [Create a carelog](carelogs-create-carelog.md)
-* [Get all carelogs](carelogs-get-all-carelogs.md)
-* [Update a carelog property](carelogs-update-carelog-property.md)
-* [Delete a carelog](carelogs-delete-carelog.md)
+* [Create a carelog](api/carelogs-create-carelog.md)
+* [Get all carelogs](api/carelogs-get-all-carelogs.md)
+* [Update a carelog property](api/carelogs-update-carelog-property.md)
+* [Delete a carelog](api/carelogs-delete-carelog.md)
 
 
 ## Contact us
